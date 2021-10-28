@@ -1,19 +1,24 @@
+/* eslint-disable */
 <template>
   <div id="app">
+    <router-link class="link-menu" to="/">Home</router-link>
+    <router-link class="link-menu" to="/suppliers">Suppliers List</router-link>
+    <router-link class="link-menu" to="/map">Suppliers Map</router-link>
+    <router-view></router-view>
     <button @click="onSuppliersListClick">Cliquez ici</button><br>
     <button @click="onMapClick">Cliquez ici 2</button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Home from './components/Home.vue';
 import SuppliersList from './components/SuppliersList.vue';
 import SuppliersMap from './components/SuppliersMap.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Home,
     SuppliersList,
     SuppliersMap
   },

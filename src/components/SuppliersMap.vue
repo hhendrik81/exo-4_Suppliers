@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <div>
     <h1>Carte des Fournisseurs</h1>

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { createApp } from 'vue';
 import App from "./Index.vue";
 import router from './router'
